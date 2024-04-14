@@ -42,4 +42,10 @@
   .education .box-container .box_graduation {
     width: 100%;
   }
+  .portfolio .box-container .box_portfolio {
+    width: 100%;
+  }
+  .contact .row form {
+    width: 100%;
+  }
 }
