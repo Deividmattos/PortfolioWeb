@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+
+:root {
+  --yellow: #f9ca24;
+}
+* {
+  font-family: "Nunito Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  text-transform: capitalize;
+  transition: all 0.2s linear;
+}
+body {
+  background-color: #111;
+  overflow-x: hidden;
+  padding-left: 35rem;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  height: 100%;
+  width: 35rem;
+  background-color: #1a1a1a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: column;
+  text-align: center;
+}
+header .user img {
+  height: 13rem;
+  width: 13rem;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  border: 0.7rem solid var(--yellow);
+}
+header .user .name {
+  font-size: 3.5rem;
+  color: #fff;
+}
+header .user .post {
+  font-size: 2rem;
+  color: #eee;
+}
+header .navbar {
+  width: 100%;
+}
+header .navbar ul {
+  list-style: none;
+  padding: 1rem 3rem;
+}
+header .navbar ul li a {
+  display: block;
+  padding: 0.5rem;
+  margin: 1rem 0;
+  background-color: #333;
+  color: #fff;
+  font-size: 2rem;
+  border-radius: 5rem;
+}
+header .navbar ul li a:hover {
+  background: var(--yellow);
+}
+#menu {
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
+  background: #333;
+  color: #fff;
+  cursor: pointer;
+  font-size: 2.5rem;
+  padding: 1rem 1.5rem;
+  z-index: 1000;
+  display: none;
+}
+section {
+  min-height: 100vh;
+  padding: 1rem;
+}
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  padding: 0 15rem;
+}
+.home h3 {
+  font-size: 2.5rem;
+  color: #fff;
+}
+.home h1 {
+  font-size: 4rem;
+  color: #fff;
+}
+.home p {
+  font-size: 1rem;
+  color: #eee;
+  padding: 1rem 0;
+}
