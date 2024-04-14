@@ -4,8 +4,14 @@
   body {
     font-size: 55%;
   }
+  .home {
+    padding: 1rem 4rem;
+  }
 }
 @media (max-width: 991px) {
+  body {
+    padding: 0;
+  }
   header {
     left: -120%;
   }
@@ -16,6 +22,7 @@
     left: 0%;
   }
 }
+
 @media (max-width: 768px) {
   body {
     font-size: 50%;
@@ -24,5 +31,19 @@
 @media (max-width: 400px) {
   header {
     width: 100vw;
+  }
+  .heading {
+    margin: 0 3rem;
+  }
+  .about,
+  .row,
+  .counter,
+  .box {
+    width: 100%;
+  }
+  .education,
+  .box-container,
+  .box {
+    width: 100%;
   }
 }
