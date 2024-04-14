@@ -28,6 +28,7 @@
     font-size: 50%;
   }
 }
+
 @media (max-width: 400px) {
   header {
     width: 100vw;
@@ -35,15 +36,10 @@
   .heading {
     margin: 0 3rem;
   }
-  .about,
-  .row,
-  .counter,
-  .box {
+  .about .row .counter .box_graduation {
     width: 100%;
   }
-  .education,
-  .box-container,
-  .box {
+  .education .box-container .box_graduation {
     width: 100%;
   }
 }

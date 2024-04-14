@@ -110,7 +110,8 @@ section {
   color: #eee;
   padding: 1rem 0;
 }
-.about_btn {
+.home_btn,
+.info_btn {
   padding: 0.7rem 3rem;
   background-color: #333;
   color: #fff;
@@ -119,128 +120,109 @@ section {
   font-size: 2rem;
   border-radius: 5rem;
 }
-.about_btn:hover {
+.home_btn:hover,
+.info_btn:hover {
   background: var(--yellow);
 }
-.about_btn i {
+.home_btn i,
+.info_btn i {
   padding: 0.5rem;
   font-size: 1.8rem;
 }
-.heading {
-  text-align: center;
-  margin: 0 6rem;
-  font-size: 4rem;
-  padding: 1rem;
-  border-bottom: 1rem solid #fff4;
-  color: #fff;
-}
-.heading span {
-  color: var(--yellow);
-}
-.about,
-.row {
+
+.about .row {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
   padding: 1rem 0;
 }
-.about,
-.row,
-.info {
+.about .row .info {
   flex: 1 1 48rem;
   padding: 2rem 1rem;
   padding-left: 6rem;
 }
-.about,
-.row,
-.counter {
+
+.about .row .counter {
   flex: 1 1 48rem;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
 }
-.about,
-.row,
-.counter,
-.box {
+.about .row .counter .box {
   width: 20rem;
   background: #222;
   text-align: center;
   padding: 2rem;
   margin: 2rem;
 }
-.about,
-.row,
-.counter,
-.box span {
+.about .row .counter .box span {
   font-size: 4rem;
   color: var(--yellow);
 }
-.about,
-.row,
-.counter,
-.box span h3 {
+.about .row .counter .box h3 {
   font-size: 2rem;
   color: #fff;
 }
-.about,
-.row,
-.info h3 {
-  font-size: var(--yellow);
+.about .row .info h3 {
+  font-size: 2rem;
+  color: var(--yellow);
   padding: 1rem 0;
   font-weight: normal;
 }
-.about,
-.row,
-.info h3 span {
+.about .row .info h3 span {
   color: #eee;
   padding: 0 0.5rem;
 }
-.education,
-.box-container {
-  display: flex;
+.heading {
   text-align: center;
+  margin: 0 6rem;
+  font-size: 4rem;
+  padding: 1rem;
+  border-bottom: 0.1rem solid #fff4;
+  color: #fff;
+}
+.heading span {
+  color: var(--yellow);
+}
+.education .box-container {
+  display: flex;
+  align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
   padding: 1rem 0;
   padding-left: 3rem;
 }
-.education,
-.box-container,
-.box {
-  width: 27rem;
+.education .box-container .box_graduation {
+  width: 22rem;
   margin: 4rem 1rem;
   padding-left: 0.2rem solid #fff;
   position: relative;
+  border-left: 1px solid #fff;
 }
-.education,
-.box-container,
-.box span {
+.education .box-container .box_graduation h3 {
+  font-size: 1.5rem;
+  color: #fff;
+  padding: 1.5rem 2rem 1.5rem 2rem;
+}
+.education .box-container .box_graduation span {
   font-size: 1.3rem;
   background: #222;
   color: #fff;
   border-radius: 5rem;
-  padding: 0.5rem 2.5rem;
+  padding: 0.5rem 1.5rem;
 }
-.education,
-.box-container,
-.box h3 {
-  font-size: 2rem;
-  color: #fff;
-  padding-top: 1.5rem;
-}
-.education,
-.box-container,
-.box p {
+
+.education .box-container .box_graduation p {
   font-size: 1.4rem;
   color: #eee;
-  padding: 1rem 0;
+  padding: 0.5rem 2rem 1.5rem 2rem;
 }
-.education,
-.box-container .box i {
-  position: absolute;
+.education .box-container .box_graduation i {
+  position: relative;
+  top: -1.5rem;
+  left: -2.5rem;
   height: 5rem;
   width: 5rem;
   width: 5rem;
