@@ -153,8 +153,11 @@ span {
   font-weight: 600;
   min-width: 280px;
 }
+.text_animation span {
+  position: relative;
+}
 .text_animation span::before {
-  content: "Youtube";
+  content: "Youtuber";
   color: var(--main-color);
   animation: words 20s infinite;
 }
@@ -163,10 +166,10 @@ span {
   background-color: var(--bg-color);
   position: absolute;
   width: calc(100% + 8px);
-  height: 8%;
+  height: 100%;
   border-left: 2px solid #333;
   right: -8px;
-  animation: cursor 0.6s infinite, typing 40s steps(14) infinite;
+  animation: cursor 0.6s infinite, typing 20s steps(14) infinite;
 }
 @keyframes cursor {
   to {
@@ -189,6 +192,10 @@ span {
   61%,
   80% {
     content: "Front end";
+  }
+  81%,
+  100% {
+    content: "Drone";
   }
 }
 
@@ -214,7 +221,7 @@ span {
   65%,
   80%,
   85% {
-    width: calc(100% + 4px);
+    width: calc(100% + 8px);
   }
 }
 .about {
@@ -222,7 +229,7 @@ span {
   justify-content: center;
   align-items: center;
   gap: 10rem;
-  background-color: var(--second-bg-color);
+  background: var(--second-bg-color);
 }
 .about_img {
   border-radius: 50%;
@@ -251,17 +258,15 @@ span {
 .about_content .text_animation span::before {
   content: "Youtube";
   color: var(--main-color);
-  animation: words 20s infinite;
 }
 .about_content .text_animation span::after {
   content: "";
   background-color: var(--second-bg-color);
   position: absolute;
   width: calc(100% + 8px);
-  height: 8%;
+  height: 100%;
   border-left: 2px solid #333;
   right: -8px;
-  animation: cursor 0.6s infinite, typing 40s steps(14) infinite;
 }
 .services_content {
   display: flex;
