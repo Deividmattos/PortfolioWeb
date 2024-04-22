@@ -321,9 +321,17 @@ span {
 .projects_container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  align-items: center;
   gap: 2.5rem;
 }
 .projects_container .projects_box {
+  position: relative;
+  border-radius: 2rem;
+  box-shadow: 0 0 1rem var(--bg-color);
+  overflow: hidden;
+  display: flex;
+}
+.projects_box img {
   width: 100%;
   transition: 0.5s ease;
 }
@@ -401,7 +409,7 @@ span {
   font-weight: 500;
   font-size: 17px;
 }
-.skill_bar .bar .progress_line {
+.skill_bars .bar .progress_line {
   height: 10px;
   width: 100%;
   background: white;
