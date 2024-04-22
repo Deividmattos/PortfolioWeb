@@ -68,7 +68,7 @@ header {
   color: var(--main-color);
   display: none;
 }
-section {
+.section_home {
   min-height: 100vh;
   padding: 10rem 9% 10rem;
 }
@@ -423,7 +423,7 @@ span {
   background: #0077ff;
   cursor: pointer;
 }
-.bar .progress_line .javascript span {
+.bar .progress_line.javascript span {
   width: 90%;
   background-color: gold;
   box-shadow: 0 0 25px gold;
@@ -433,40 +433,40 @@ span {
   box-shadow: 0 0 25px gold, 0 0 50px gold;
 }
 
-.bar .progress_line .react span {
+.bar .progress_line.react span {
   width: 60%;
   background-color: rgb(58, 58, 255);
   box-shadow: 0 0 25px rgb(58, 58, 255);
   transition: 0.3s ease;
 }
-.bar .progress_line .react span:hover {
+.bar .progress_line.react span:hover {
   box-shadow: 0 0 25px rgb(58, 58, 255), 0 0 50px rgb(58, 58, 255);
 }
-.bar .progress_line .wordpress span {
+.bar .progress_line.wordpress span {
   width: 85%;
   background-color: greenyellow;
   box-shadow: 0 0 25px greenyellow;
   transition: 0.3s ease;
 }
-.bar .progress_line .wordpress span:hover {
+.bar .progress_line.wordpress span:hover {
   box-shadow: 0 0 25px greenyellow, 0 0 50px greenyellow;
 }
-.bar .progress_line .html span {
+.bar .progress_line.html span {
   width: 100%;
   background-color: orangered;
   box-shadow: 0 0 25px orangered;
   transition: 0.3s ease;
 }
-.bar .progress_line .html span:hover {
+.bar .progress_line.html span:hover {
   box-shadow: 0 0 25px orangered, 0 0 50px orangered;
 }
-.bar .progress_line .css span {
+.bar .progress_line.css span {
   width: 100%;
   background-color: var(--blue);
   box-shadow: 0 0 25px var(--blue);
   transition: 0.3s ease;
 }
-.bar .progress_line .css span:hover {
+.bar .progress_line.css span:hover {
   box-shadow: 0 0 25px var(--blue), 0 0 50px var(--blue);
 }
 .contact {
@@ -497,19 +497,19 @@ span {
   margin: 1rem 0;
   resize: none;
 }
-.footer {
+.footer_start {
   position: relative;
   bottom: 0;
   width: 100%;
   padding: 40px 0;
   background-color: var(--main-color);
 }
-.footer .social {
+.footer_start .social {
   text-align: center;
   padding-bottom: 25px;
   color: white;
 }
-.footer .social a {
+.footer_start .social a {
   font-size: 25px;
   color: white;
   border: 2px solid white;
@@ -522,10 +522,10 @@ span {
   margin: 0 10px;
   transition: 0.3s ease;
 }
-.footer .social a:hover {
+.footer_start .social a:hover {
   transform: scale(1.2) translateY(-10px);
 }
-.footer ul {
+.footer_start ul {
   margin-top: 0;
   padding: 0;
   font-size: 18px;
@@ -533,18 +533,19 @@ span {
   margin-bottom: 0;
   text-align: center;
 }
-.footer ul li a {
+.footer_start ul li a {
   color: white;
   border-bottom: 3px solid transparent;
+  transition: 0.3s ease;
 }
-.footer ul li a:hover {
+.footer_start ul li a:hover {
   border-bottom: 3px solid white;
 }
-.footer ul li {
+.footer_start ul li {
   display: inline-block;
   padding: 0 15px;
 }
-.footer .copyright {
+.footer_start .copyright {
   margin-top: 50px;
   text-align: center;
   font-size: 16px;
