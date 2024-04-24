@@ -10,6 +10,9 @@
   header {
     padding: 2rem 3%;
   }
+  .section_home {
+    padding: 10rem 3% 2rem;
+  }
   .services {
     padding-bottom: 7rem;
   }
@@ -22,7 +25,7 @@
 }
 
 @media (max-width: 895px) {
-  #menu-icon {
+  .menu-icon {
     display: block;
   }
   .navbar {
@@ -56,6 +59,9 @@
   .home_img img {
     width: 70vw;
     margin-top: 4rem;
+  }
+  .about {
+    flex-direction: column-reverse;
   }
   .about_content {
     margin: 1rem 4rem;
