@@ -131,6 +131,10 @@ span {
   background-color: var(--main-color);
   box-shadow: 0 0 0 25px var(--main-color);
 }
+
+.closebtn {
+  color: white;
+}
 .btn {
   display: inline-block;
   padding: 1rem 2.8rem;
@@ -183,15 +187,15 @@ span {
   }
   21%,
   40% {
-    content: "Web Designer";
+    content: "Web hg";
   }
   41%,
   60% {
-    content: "Web Developer";
+    content: "Web";
   }
   61%,
   80% {
-    content: "Front end";
+    content: "Front";
   }
   81%,
   100% {
