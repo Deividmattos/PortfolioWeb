@@ -52,6 +52,7 @@ header {
 }
 .nav_link {
   transition: 0.7s ease;
+  font-size: 1.8rem;
 }
 .nav_link:hover {
   color: var(--main-color);
@@ -311,6 +312,9 @@ span {
 .services_box p {
   font-size: 1.6rem;
   margin: 1rem 0 3rem;
+}
+.services_box p:hover {
+  color: black;
 }
 ::-webkit-scrollbar {
   width: 15px;

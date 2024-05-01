@@ -1,6 +1,13 @@
-function openNav() {
-  document.getElementById("myNav").style.width = "100%";
-}
-function closeNav() {
-  document.getElementById("myNav").style.width = "0%";
-}
+const hamburguer = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav_menu");
+
+hamburguer.addEventListener("click", () => {
+  hamburguer.classList.toggle("active");
+  navMenu.classList.toggle("active");
+});
+document.querySelectorAll(".nav_link").forEach((n) =>
+  n.addEventListener("click", () => {
+    hamburguer.classList.remove("active");
+    navMenu.classList.remove("active");
+  })
+);
