@@ -276,6 +276,9 @@ span {
   border-left: 2px solid #333;
   right: -8px;
 }
+.services {
+  margin-bottom: 4rem;
+}
 .services_content {
   display: flex;
   align-items: center;
