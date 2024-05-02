@@ -49,6 +49,7 @@ header {
 }
 .logo span {
   color: var(--blue);
+  margin-left: 0.5rem;
 }
 .nav_link {
   transition: 0.7s ease;
