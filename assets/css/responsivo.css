@@ -19,14 +19,39 @@
   header {
     padding: 2rem 3%;
   }
+  .section_home {
+    display: flex;
+    flex-direction: column;
+  }
   .services {
     padding-bottom: 7rem;
+    margin: 0 1rem 0 1rem;
   }
   .projects {
     padding: 7rem;
+    margin: 0 1rem 0 1rem;
+  }
+  .skills {
+    margin: 0 1rem 0 1rem;
+  }
+  .contact {
+    margin: 0 1rem 0 1rem;
   }
   .footer {
     padding: 2rem 3%;
+  }
+  .about {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .about_content {
+    padding: 2rem;
+  }
+
+  .about_img {
+    margin-top: 0;
+    margin-bottom: 4rem;
+    gap: 0;
   }
 }
 
