@@ -2,10 +2,11 @@
 
 :root {
   --bg-color: #141414;
-  --blue: #22d4fd;
+  --purple-light: #8c4bde;
   --second-bg-color: #191919;
   --text-color: white;
   --main-color: #00bfff;
+  --bg-purple: #441670;
 }
 * {
   font-family: "Nunito Sans", sans-serif;
@@ -48,7 +49,7 @@ header {
   color: white;
 }
 .logo span {
-  color: var(--blue);
+  color: #8c4bde;
   margin-left: 0.5rem;
 }
 .nav_link {
@@ -56,7 +57,7 @@ header {
   font-size: 1.8rem;
 }
 .nav_link:hover {
-  color: var(--main-color);
+  color: var(--purple-light);
 }
 .hamburger {
   display: none;
@@ -92,10 +93,10 @@ p {
   font-weight: 700;
 }
 span {
-  color: var(--main-color);
+  color: var(--purple-light);
 }
 .logo span {
-  text-shadow: 0 0 25px var(--main-color), 0 0 100px var(--main-color);
+  text-shadow: 0 0 25px var(--purple-light), 0 0 100px var(--purple-light);
 }
 
 .home_content h3:nth-of-type(2) {
@@ -127,23 +128,23 @@ span {
   width: 4rem;
   height: 4rem;
   background-color: transparent;
-  border: 0.2rem solid var(--main-color);
+  border: 0.2rem solid var(--purple-light);
   font-size: 2rem;
   border-radius: 50%;
-  color: var(--main-color);
+  color: var(--purple-light);
   margin: 3rem 1.5rem 4rem 0;
   transition: 0.3s ease;
 }
 .social_icons a:hover {
   color: white;
   transform: scale(1.3) translateY(-5px);
-  background-color: var(--main-color);
-  box-shadow: 0 0 0 25px var(--main-color);
+  background-color: var(--bg-purple);
+  box-shadow: 0 0 0 25px var(--bg-purple);
 }
 .btn {
   display: inline-block;
   padding: 1rem 2.8rem;
-  background-color: var(--main-color);
+  background-color: var(--bg-purple);
   border-radius: 4rem;
   font-size: 1.6rem;
   color: white;
@@ -154,7 +155,7 @@ span {
   cursor: pointer;
 }
 .btn:hover {
-  box-shadow: 0 0 25px var(--main-color);
+  box-shadow: 0 0 25px var(--bg-purple);
   transform: scale(1.05);
 }
 .text_animation {
@@ -167,7 +168,7 @@ span {
 }
 .text_animation span::before {
   content: "Youtuber";
-  color: var(--main-color);
+  color: var(--purple-light);
   animation: words 20s infinite;
 }
 .text_animation span::after {
@@ -182,7 +183,7 @@ span {
 }
 @keyframes cursor {
   to {
-    border-left: 2px solid var(--main-color);
+    border-left: 2px solid var(--bg-purple);
   }
 }
 @keyframes words {
@@ -266,7 +267,7 @@ span {
 }
 .about_content .text_animation span::before {
   content: "Youtube";
-  color: var(--main-color);
+  color: var(--purple-light);
 }
 .about_content .text_animation span::after {
   content: "";
@@ -298,14 +299,14 @@ span {
   transition: 0.4s ease;
 }
 .services_content .services_box:hover {
-  border-color: var(--main-color);
+  border-color: var(--bg-purple);
   transform: scale(1.02);
   background-color: white;
   color: black;
 }
 .services_box i {
   font-size: 7rem;
-  color: var(--main-color);
+  color: var(--bg-purple);
 }
 .services_box h3 {
   font-size: 2.6rem;
@@ -324,7 +325,7 @@ span {
   width: 15px;
 }
 ::-webkit-scrollbar-thumb {
-  background-color: var(--main-color);
+  background-color: var(--bg-purple);
 }
 ::-webkit-scrollbar-track {
   background-color: #1d1d1d;
@@ -373,7 +374,7 @@ span {
   transition: 0.5s ease;
 }
 .projects_box .projects_info:hover {
-  background: radial-gradient(rgba(0, 0, 0, 5.5), var(--main-color));
+  background: radial-gradient(rgba(0, 0, 0, 5.5), var(--bg-purple));
   transform: scale(1.1);
 }
 .projects_info h4 {
@@ -398,7 +399,7 @@ span {
 }
 .projects_info a i {
   font-size: 3rem;
-  color: var(--main-color);
+  color: var(--bg-purple);
 }
 .skills h2 {
   margin-bottom: 2rem;
@@ -522,7 +523,7 @@ span {
   bottom: 0;
   width: 100%;
   padding: 40px 0;
-  background-color: var(--main-color);
+  background-color: var(--bg-purple);
 }
 .footer_start .social {
   text-align: center;
