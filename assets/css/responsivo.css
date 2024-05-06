@@ -42,8 +42,9 @@
     margin: 11px;
   }
   .projects_container {
-    display: grid;
+    display: flex;
     flex-direction: column;
+    width: 100%;
   }
   .container_skills h2 {
     font-size: 4rem;
