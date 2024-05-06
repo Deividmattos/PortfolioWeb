@@ -19,26 +19,59 @@
   header {
     padding: 2rem 3%;
   }
+
   .section_home {
     display: flex;
     flex-direction: column;
   }
+
   .services {
     padding-bottom: 7rem;
     margin: 0 1rem 0 1rem;
   }
   .projects {
-    padding: 7rem;
-    margin: 0 1rem 0 1rem;
+    padding-top: 1rem;
   }
-  .skills {
-    margin: 0 1rem 0 1rem;
+  .projects h2 {
+    font-size: 4rem;
+    margin: 11px;
+    padding: 0;
+  }
+  .projects_container {
+    display: grid;
+    flex-direction: column;
+  }
+  .container_skills h2 {
+    font-size: 4rem;
+    margin: 11px;
+  }
+  .container_skills {
+    margin-right: 10px;
   }
   .contact {
     margin: 0 1rem 0 1rem;
+    margin-right: 21px;
+  }
+  .contact h2 {
+    font-size: 4rem;
+    margin: 11px;
+  }
+  .contact form .input_box input,
+  .contact form textarea {
+    width: 83%;
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    color: var(--text-color);
+    background: var(--bg-color);
+    border-radius: 0.8rem;
+    margin: 1rem 0;
+    resize: none;
   }
   .footer {
     padding: 2rem 3%;
+  }
+  .footer_start ul {
+    font-size: 14px;
   }
   .about {
     display: flex;

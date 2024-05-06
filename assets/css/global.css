@@ -113,7 +113,6 @@ span {
   border-radius: 50%;
 }
 .home_img img {
-  position: relative;
   width: 32vw;
   border-radius: 50%;
   cursor: pointer;
@@ -242,13 +241,10 @@ span {
   background: var(--second-bg-color);
 }
 .about_img {
-  border-radius: 50%;
   margin: 2rem;
 }
 .about_img img {
-  position: relative;
   width: 30vw;
-  border-radius: 50%;
   cursor: pointer;
 }
 .heading {
@@ -305,12 +301,18 @@ span {
   background-color: white;
   color: black;
 }
+.services_content {
+  color: #141414;
+}
 .services_box i {
   font-size: 7rem;
   color: var(--bg-purple);
 }
 .services_box h3 {
   font-size: 2.6rem;
+}
+.services_box h3:hover {
+  color: black;
 }
 .services_box p:hover {
   color: black;
@@ -402,8 +404,20 @@ span {
   font-size: 3rem;
   color: var(--bg-purple);
 }
-.skills h2 {
+.box_skills {
+  background-color: #441670;
+  width: 100%;
+  height: 10vw;
+  display: flex;
+  justify-content: space-around;
+}
+.container_skills h2 {
   margin-bottom: 2rem;
+  text-align: center;
+  font-size: 8rem;
+}
+.skills_img {
+  padding: 10px;
 }
 .skills {
   margin: 0 auto;
