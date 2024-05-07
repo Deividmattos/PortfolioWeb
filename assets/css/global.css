@@ -260,7 +260,7 @@ span {
 }
 .about_content p {
   font-size: 1.6rem;
-  margin: 2rem 0 3rem;
+  margin: 2rem 0 3rem 2rem;
 }
 .about_content .text_animation span::before {
   content: "Youtube";
@@ -277,6 +277,7 @@ span {
 }
 .services {
   margin-bottom: 4rem;
+  margin: 0 1rem 0 1rem;
 }
 .services_content {
   display: flex;
@@ -346,6 +347,7 @@ span {
   align-items: center;
   gap: 2.5rem;
   padding-bottom: 3rem;
+  margin: 0 1rem 0 1rem;
 }
 .projects_container .projects_box {
   position: relative;
